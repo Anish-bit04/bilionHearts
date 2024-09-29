@@ -16,7 +16,7 @@ const Main = () => {
     }
     try {
       const response = await axios.post(
-        "http:localhost:4000/api/user/signbeta",
+        "https://bilionhearts-backend.onrender.com/api/user/signbeta",
         {
           email,
           name,
