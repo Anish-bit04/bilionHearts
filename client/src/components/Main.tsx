@@ -26,7 +26,7 @@ const Main = () => {
         setinvited(true);
       }
     } catch (error) {
-      alert("Please fill the correct data ")
+      alert("Please fill the correct data Or Internal Server Error 😅 ")
     }
   };
 
